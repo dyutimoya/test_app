@@ -19,7 +19,7 @@ class App extends StatelessWidget {
           darkTheme: AppTheme.darkTheme,
           themeMode: themeController.themeMode.value,
           initialBinding: AppBindings(),
-          initialRoute: AppRoutes.splash,
+          initialRoute: AppRoutes.navigation,
           getPages: AppRoutes.pages,
           debugShowCheckedModeBanner: false,
         )
